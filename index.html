@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppeklokke</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <button class="Knapp" onclick="startTid()">START</button>
+    <button class="Knapp" onclick="pauseTid()">PAUSE</button>
+    <button class="Knapp" onclick="fjernTid()">FJERN TID</button>
+    
+    <div class="sirkel">
+
+         <div id="app" class="klokke"></div> 
+         <br> Runder:
+         <div id="runde" class="rundeListe"></div>
+         
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
